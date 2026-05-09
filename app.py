@@ -27,7 +27,7 @@ class FairFaceCNN(nn.Module):
         return x
 
 FILE_ID = "1Dm8Vj46kKGzNC5qtKhYoP6K6tUYd-2KV"
-URL = f"https://drive.google.com/file/d/https://drive.google.com/file/d/1Dm8Vj46kKGzNC5qtKhYoP6K6tUYd-2KV/view?usp=drive_link/view?usp=drive_link={FILE_ID}"
+URL = f"https://drive.google.com/drive/my-drive={FILE_ID}"
 
 @st.cache_resource
 def load_model():
