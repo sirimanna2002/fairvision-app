@@ -3,6 +3,9 @@ import torch
 import torch.nn as nn
 from PIL import Image
 import torchvision.transforms as transforms
+import gdown
+import os
+import numpy as np
 
 
 class FairFaceCNN(nn.Module):
