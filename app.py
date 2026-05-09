@@ -34,13 +34,15 @@ URL = f"https://drive.google.com/drive/my-drive={FILE_ID}"
 
 @st.cache_resource
 def load_model():
-
+    URL = f"https://drive.google.com/drive/my-drive={FILE_ID}"
     model_path = "fairface_model.pth"
+    
     if not os.path.exists(model_path):
-        gdown.download(URL, model_path, quiet=False)
+        with st.spinner("Downloading model from Google Drive..."):
+          gdown.download(URL, model_path, quiet=False)
         
     model = FairFaceCNN()
-    model.load_state_dict(torch.load('fairface_model.pth', map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load('model_path', map_location=torch.device('cpu')))
     model.eval()
     return model
 
