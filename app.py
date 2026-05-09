@@ -29,13 +29,13 @@ class FairFaceCNN(nn.Module):
         x = self.fc_layers(x)
         return x
 
-FILE_ID = "1VB1a5qenDeODODouoORK_wt_WBLMOMJc"
+FILE_ID = "12Orm7hnQlJIWLmnA9PEp3WiK7uffgYBB"
 URL = f"https://drive.google.com/drive/my-drive={FILE_ID}"
 
 @st.cache_resource
 def load_model():
     URL = f"https://drive.google.com/drive/my-drive={FILE_ID}"
-    model_path = "best_fairface_model.pth"
+    model_path = "best_fairface_model_v2"
     
     if not os.path.exists(model_path):
         with st.spinner("Downloading model from Google Drive..."):
