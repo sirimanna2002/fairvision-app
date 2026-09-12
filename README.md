@@ -100,6 +100,8 @@ The predicted age group should not be considered an accurate measurement of a pe
 
 ### 👩‍💻 Author
 
-Malsha Nethmini
+## 👩‍💻 Author
 
-GitHub: https://github.com/sirimanna2002
+**Malsha Nethmini**
+
+🔗 **LinkedIn:** [Malsha Nethmini](https://www.linkedin.com/in/malsha-nethmini-vk/)
