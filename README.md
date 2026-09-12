@@ -83,13 +83,15 @@ streamlit run app.py
 
 The application will open in your web browser.
 
-### 📁 Project Structure
+## 📁 Project Structure
 
+```text
 fairvision-app/
-
+│
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
 ### ⚠️ Disclaimer
 
