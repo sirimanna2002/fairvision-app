@@ -86,6 +86,7 @@ The application will open in your web browser.
 ### 📁 Project Structure
 
 fairvision-app/
+
 ├── app.py
 ├── requirements.txt
 └── README.md
